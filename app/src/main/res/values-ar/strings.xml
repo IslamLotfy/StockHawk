@@ -22,6 +22,4 @@
     <string name="toast_no_connectivity">سيتم التحميل فور توافر اتصال بالشبكة.</string>
     <string name="fab_description">اضافة اسهم جديدة</string>
     <string name="dollar_desc">تبديل عرض المعاملات بالدولار أو بالنسبة المئوية</string>
-
-
 </resources>
