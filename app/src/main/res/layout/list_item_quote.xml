@@ -17,6 +17,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="start|center_vertical"
+        android:paddingEnd="@dimen/activity_horizontal_margin"
+        android:paddingStart="@dimen/activity_horizontal_margin"
         tools:text="GOOG" />
 
     <LinearLayout
@@ -31,6 +33,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10sp"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin"
             tools:text="1000.00" />
 
         <TextView
@@ -41,6 +45,8 @@
             android:background="@drawable/percent_change_pill_green"
             android:paddingLeft="3dp"
             android:paddingRight="3dp"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin"
             tools:text="100%" />
     </LinearLayout>
 </LinearLayout>
