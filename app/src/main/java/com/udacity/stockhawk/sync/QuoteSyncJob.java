@@ -48,7 +48,7 @@ public final class QuoteSyncJob {
 
     static void getQuotes(final Context context) {
 
-        Timber.d("Running sync job");
+        Timber.d(context.getResources().getString(R.string.sync_job));
 
         Calendar from = Calendar.getInstance();
         Calendar to = Calendar.getInstance();
@@ -162,7 +162,7 @@ public final class QuoteSyncJob {
 
 
     private static void schedulePeriodic(Context context) {
-        Timber.d("Scheduling a periodic task");
+        Timber.d(context.getResources().getString(R.string.periodic_task));
 
 
         JobInfo.Builder builder = new JobInfo.Builder(PERIODIC_ID, new ComponentName(context, QuoteJobService.class));

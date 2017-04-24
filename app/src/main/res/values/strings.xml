@@ -27,4 +27,6 @@
     <string name="stock_dialog_fragment">StockDialogFragment</string>
     <string name="symbol_clicked">Symbol clicked: %s</string>
     <string name="no_data">No Available Data</string>
+    <string name="sync_job">Running sync job</string>
+    <string name="periodic_task">Scheduling a periodic task</string>
 </resources>
