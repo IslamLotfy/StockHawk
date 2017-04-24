@@ -22,4 +22,9 @@
     <string name="fab_description">Add new Stock</string>
     <string name="dollar_desc">Switch Display Between Percentage and dollars</string>
     <string name="test" translatable="false">Intetn Handled</string>
+    <string name="invalid_add_stock_message">in valid stock to be added</string>
+    <string name="symbol">Symbol</string>
+    <string name="stock_dialog_fragment">StockDialogFragment</string>
+    <string name="symbol_clicked">Symbol clicked: %s</string>
+    <string name="no_data">No Available Data</string>
 </resources>

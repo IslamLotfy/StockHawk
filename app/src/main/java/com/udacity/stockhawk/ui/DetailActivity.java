@@ -25,7 +25,7 @@ public class DetailActivity extends AppCompatActivity {
         initCursor();
         LineChart lineChart = (LineChart) findViewById(R.id.chart);
         Intent intent = getIntent();
-        int id = intent.getIntExtra("Symbol",0);
+        int id = intent.getIntExtra(getResources().getString(R.string.symbol),0);
         cursor.moveToPosition(id);
         String history =  cursor.getString(Contract.Quote.POSITION_HISTORY);
         String symbol =  cursor.getString(Contract.Quote.POSITION_SYMBOL);
@@ -39,7 +39,7 @@ public class DetailActivity extends AppCompatActivity {
             LineData data = new LineData(lineDataSet);
             lineChart.setData(data);
         }catch (Exception e){
-            Toast.makeText(this,"No Available Data",Toast.LENGTH_LONG).show();
+            Toast.makeText(this,getResources().getString(R.string.no_data),Toast.LENGTH_LONG).show();
         }
 
     }
